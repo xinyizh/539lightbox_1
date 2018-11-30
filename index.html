@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+
+	<title>Lightbox</title>
+</head>
+
+<body>
+	<div class="controls">
+		<button type="button" class="control" data-sort="default:asc">Asc</button>
+		<button type="button" class="control" data-sort="default:desc">Desc</button>
+	</div>
+
+	<div class="gallery container">
+
+		<a href="images/3.jpg" data-lightbox="roadtrip3" class="mix"><img src="images/3.jpg" alt="nq"></a>
+
+		<a href="images/6.JPG" data-lightbox="roadtrip6" class="mix"><img src="images/6.JPG" alt="paris"></a>
+
+		<a href="images/9.png" data-lightbox="roadtrip9" class="mix"><img src="images/9.png" alt="ts"></a>
+
+		<a href="images/4.jpg" data-lightbox="roadtrip4" class="mix"><img src="images/4.jpg" alt="yellowmountain"></a>
+
+		<a href="images/7.jpg" data-lightbox="roadtrip7" class="mix"><img src="images/7.jpg" alt="spain"></a>
+
+		<a href="images/8.png" data-lightbox="roadtrip8" class="mix"><img src="images/8.png" alt="ny"></a>
+
+		<a href="images/1.jpg" data-lightbox="roadtrip1" class="mix"><img src="images/1.jpg" alt="me"></a>
+
+		<a href="images/2.JPG" data-lightbox="roadtrip2" class="mix"><img src="images/2.JPG" alt="sh"></a>
+
+		<a href="images/5.jpg" data-lightbox="roadtrip5" class="mix"><img src="images/5.jpg" alt="beijing"></a>
+	</div>
+
+	<script src="js/lightbox.js"></script>
+	<script src="js/mixitup.min.js"></script>
+
+	<script>
+		var containerEl = document.querySelector('.container');
+		var mixer = mixitup(containerEl);
+	</script>
+
+
+</body>
+
+</html>
